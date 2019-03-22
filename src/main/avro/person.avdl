@@ -1,0 +1,7 @@
+@namespace ("com.example.examplepub.event")
+protocol PersonEvent {
+  record Person {
+    string name;
+    string status;
+  }
+}
